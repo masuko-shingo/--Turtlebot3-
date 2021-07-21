@@ -10,8 +10,9 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
 ## 説明
 資料にあるROBOTIS e-manualを参考にセットアップを行います。  
 ubuntu18.04、ros_melodicがインストールされている前提でセットアップをしていきます。  
-サイトの3.1.2 Instal ROS1 on Remort PCまでは飛ばし、
+ROBOTIS e-manual　3.1.2 Instal ROS1 on Remort PCまでは飛ばし、
 3.1.3 Install Dependent ROS 1 Packagesから進めていきます。  
+※ROSのセットアップをしていない場合はhttps://github.com/ryuichiueda/ros_setup_scripts_Ubuntu18.04_desktop からインストールしてください。  
 ※ubuntu18.04以外の場合、ubuntuのバージョンに対応するROSのバージョンに合わせてサイト上部のボタンをクリックしてください。実行するコマンド等がバージョンに合ったものに変更されます。
 ### 図
 ![サイト上部にバージョンに合わせてセットアップ内容が変わるボタンがある](https://user-images.githubusercontent.com/72721963/126454556-23750bba-ec47-4e91-bf6f-d2b38288c0f3.png)
