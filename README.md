@@ -17,10 +17,39 @@ ubuntu18.04、ros_melodicがインストールされている前提でセット�
 ![サイト上部にバージョンに合わせてセットアップ内容が変わるボタンがある](https://user-images.githubusercontent.com/72721963/126454556-23750bba-ec47-4e91-bf6f-d2b38288c0f3.png)
 3.1.3 Install Dependent ROS 1 Packages では
 ```
-apt-get
+$ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
+  ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc \
+  ros-melodic-rgbd-launch ros-melodic-depthimage-to-laserscan \
+  ros-melodic-rosserial-arduino ros-melodic-rosserial-python \
+  ros-melodic-rosserial-server ros-melodic-rosserial-client \
+  ros-melodic-rosserial-msgs ros-melodic-amcl ros-melodic-map-server \
+  ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro \
+  ros-melodic-compressed-image-transport ros-melodic-rqt* \
+  ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers
 ```
-になっていますが、
+と記述されていますが、この方法でうまくインストールできない場合
 ```
-apt
+$ sudo apt-get install ros-melodic-joy 
+$ sudo apt-get install ros-melodic-teleop-twist-joy
+...
 ```
-でも問題ないはずです。
+のように一つずつインストールを行ってください。  
+また、apt-getを使用してインストールしていますが、
+```
+$ sudo apt install ros-melodic-joy ros-melodic-teleop-twist-joy \
+  ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc \
+  ros-melodic-rgbd-launch ros-melodic-depthimage-to-laserscan \
+  ros-melodic-rosserial-arduino ros-melodic-rosserial-python \
+  ros-melodic-rosserial-server ros-melodic-rosserial-client \
+  ros-melodic-rosserial-msgs ros-melodic-amcl ros-melodic-map-server \
+  ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro \
+  ros-melodic-compressed-image-transport ros-melodic-rqt* \
+  ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers
+```
+
+```
+$ sudo apt install ros-melodic-joy 
+$ sudo apt install ros-melodic-teleop-twist-joy
+...
+```
+のようにaptでインストールしても問題ありません。
