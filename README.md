@@ -3,14 +3,18 @@
 7/29　勉強会 turtlebot3のセットアップ用リポジトリ  
 ROS(melodic)がインストールされている前提でセットアップしていく  
 ※ROSのセットアップをしていない場合は、https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu18.04_desktop からインストールしてください。
+
 ## 目的
 turtlebot3実機、もしくはシミュレーション環境をセットアップする
+
 ## 資料
 ROBOTIS e-manual
 https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
+
 ## 説明
 資料にあるROBOTIS e-manualを参考にセットアップを行います。  
-ubuntu18.04、ROS(melodic)がインストールされている前提でセットアップをしていきます。  
+ROBOTIS e-manual　3. Quick setup の 3.1 PC setup から始めていきます。
+また、今回はubuntu18.04、ROS(melodic)がインストールされている前提でセットアップをしていきます。  
 ROBOTIS e-manual　3.1.2 Instal ROS1 on Remort PCまでは飛ばし、
 3.1.3 Install Dependent ROS 1 Packagesから進めていきます。  
 ※ubuntu18.04以外の場合、ubuntuのバージョンに対応するROSのバージョンに合わせてサイト上部のボタンをクリックしてください。実行するコマンド等がバージョンに合ったものに変更されます。
@@ -36,7 +40,7 @@ $ sudo apt-get install ros-melodic-teleop-twist-joy
 ...
 ```
 のように一つずつインストールを行ってください。  
-また、apt-getを使用してインストールしていますが、
+また、ROBOTIS e-manualでは基本的にapt-getを使用してインストールしていますが、
 ```
 $ sudo apt install ros-melodic-joy ros-melodic-teleop-twist-joy \
   ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc \
