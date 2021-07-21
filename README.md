@@ -13,7 +13,7 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
 
 ## 説明
 資料にあるROBOTIS e-manualを参考にセットアップを行います。  
-ROBOTIS e-manual　3. Quick Start Guide の 3.1 PC setup から始めていきます。
+ROBOTIS e-manual　3. Quick Start Guide の 3.1 PC Setup から始めていきます。
 また、今回はubuntu18.04、ROS(melodic)がインストールされている前提でセットアップをしていきます。  
 ROBOTIS e-manual　3.1.2 Instal ROS1 on Remort PCまでは飛ばし、
 3.1.3 Install Dependent ROS 1 Packagesから進めていきます。  
