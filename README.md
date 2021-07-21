@@ -15,3 +15,12 @@ ubuntu18.04、ros_melodicがインストールされている前提でセット�
 ※ubuntu18.04以外の場合、バージョンに合わせてサイト上部のボタンをクリックしてください。
 ### 図
 ![サイト上部にバージョンに合わせてセットアップ内容が変わるボタンがある](https://user-images.githubusercontent.com/72721963/126454556-23750bba-ec47-4e91-bf6f-d2b38288c0f3.png)
+3.1.3 Install Dependent ROS 1 Packages では
+```
+apt-get
+```
+になっていますが、
+```
+apt
+```
+でも問題ないはずです。
