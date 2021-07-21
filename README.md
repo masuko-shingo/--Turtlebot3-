@@ -29,7 +29,7 @@ $ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
   ros-melodic-compressed-image-transport ros-melodic-rqt* \
   ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers
 ```
-と記述されていますが、この方法でうまくインストールできない場合
+とコマンドが記述されていますが、この方法でうまくインストールできない場合
 ```
 $ sudo apt-get install ros-melodic-joy 
 $ sudo apt-get install ros-melodic-teleop-twist-joy
