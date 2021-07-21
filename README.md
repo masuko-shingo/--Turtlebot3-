@@ -2,7 +2,7 @@
 ## 概要
 7/29　勉強会 turtlebot3のセットアップ用リポジトリ  
 ros(melodic)がインストールされている前提でセットアップしていく  
-※ROSのセットアップをしていない場合はhttps://github.com/ryuichiueda/ros_setup_scripts_Ubuntu18.04_desktop からインストールしてください。
+※ROSのセットアップをしていない場合は、https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu18.04_desktop からインストールしてください。
 ## 目的
 turtlebot3実機、もしくはシミュレーション環境をセットアップする
 ## 資料
