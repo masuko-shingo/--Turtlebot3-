@@ -12,3 +12,4 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
 ubuntu18.04、ros_melodicがインストールされている前提でセットアップをしていきます。
 ubuntu18.04以外の場合、バージョンに合わせてサイト上部のボタンをクリックしてください。
 ### 図
+![サイト上部にバージョンに合わせてセットアップ内容が変わるボタンがある](https://user-images.githubusercontent.com/72721963/126454556-23750bba-ec47-4e91-bf6f-d2b38288c0f3.png)
