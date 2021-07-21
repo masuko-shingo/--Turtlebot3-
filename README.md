@@ -3,7 +3,7 @@
 7/29　勉強会 turtlebot3のセットアップ用リポジトリ  
 ros(melodic)がインストールされている前提でセットアップしていく
 ## 目的
-turtlebot3、そのシミュレーション環境をセットアップする
+turtlebot3実機、もしくはシミュレーション環境をセットアップする
 ## 資料
 ROBOTIS e-manual
 https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
