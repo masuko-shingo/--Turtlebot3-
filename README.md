@@ -66,3 +66,10 @@ $ sudo apt install ros-melodic-dynamixel-sdk
 $ sudo apt install ros-melodic-turtlebot3-msgs
 $ sudo apt install ros-melodic-turtlebot3
 ```
+
+### 6.1
+```
+$ cd ~/catkin_ws/src/
+$ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+$ cd ~/catkin_ws && catkin_mak
+```
