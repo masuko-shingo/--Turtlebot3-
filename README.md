@@ -29,7 +29,7 @@ $ mkdir -p catkin_ws/src
 $ cd ~/catkin_ws/src
 ```
 今回のワークスペースの名前は、catkin_wsとして、
-catkin_wsの中に、srcというディレクトリを作ります。
+catkin_wsの中に、srcというディレクトリを作ります。  
 このsrcの中に、必要なパッケージ等をダウンロードしていきます。
 
 ### 3.1.3 Install Dependent ROS 1 Packages
