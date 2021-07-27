@@ -62,4 +62,7 @@ $ sudo apt install ros-melodic-teleop-twist-joy
 のようにaptでインストールしても問題ありません。
 ### 3.1.4 Install TurtleBot3 Packages
 ```
+$ sudo apt install ros-melodic-dynamixel-sdk
+$ sudo apt install ros-melodic-turtlebot3-msgs
+$ sudo apt install ros-melodic-turtlebot3
 ```
