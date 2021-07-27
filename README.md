@@ -19,7 +19,8 @@ ROBOTIS e-manual　3.1.2 Instal ROS1 on Remort PCまでは飛ばし、
 3.1.3 Install Dependent ROS 1 Packagesから進めていきます。  
 ※ubuntu18.04以外の場合、ubuntuのバージョンに対応するROSのバージョンに合わせてサイト上部のボタンをクリックしてください。実行するコマンド等がバージョンに合ったものに変更されます。
 #### 図
-![サイト上部にバージョンに合わせてセットアップ内容が変わるボタンがある](https://user-images.githubusercontent.com/72721963/126454556-23750bba-ec47-4e91-bf6f-d2b38288c0f3.png)
+![screenshot](https://user-images.githubusercontent.com/72721963/126454556-23750bba-ec47-4e91-bf6f-d2b38288c0f3.png)
+
 ### 3.1.3 Install Dependent ROS 1 Packages
 3.1.3 Install Dependent ROS 1 Packagesでは
 ```
