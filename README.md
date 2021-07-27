@@ -67,6 +67,10 @@ $ sudo apt install ros-melodic-dynamixel-sdk
 $ sudo apt install ros-melodic-turtlebot3-msgs
 $ sudo apt install ros-melodic-turtlebot3
 ```
+### 3.1.5
+```
+$ echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
+```
 
 ### ワークスペース(workspace)の作成
 必要なパッケージをダウンロードする前に、ワークスペースを作ります。
