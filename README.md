@@ -23,6 +23,7 @@ ROBOTIS e-manual　3.1.2 Instal ROS1 on Remort PCまでは飛ばし、
 
 
 ### 3.1.3 Install Dependent ROS 1 Packages
+ここでは、turtlebot3を動かすために必要な依存パッケージをインストールします。
 3.1.3 Install Dependent ROS 1 Packagesでは
 ```
 $ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
