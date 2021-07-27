@@ -18,7 +18,7 @@ ROBOTIS e-manual　3. Quick Start Guide の 3.1 PC Setup から始めていき�
 ROBOTIS e-manual　3.1.2 Instal ROS1 on Remort PCまでは飛ばし、
 3.1.3 Install Dependent ROS 1 Packagesから進めていきます。  
 ※ubuntu18.04以外の場合、ubuntuのバージョンに対応するROSのバージョンに合わせてサイト上部のボタンをクリックしてください。実行するコマンド等がバージョンに合ったものに変更されます。
-#### 図
+#### バージョン変更のボタンの参考
 ![7-29-勉強会スクショ１](https://user-images.githubusercontent.com/72721963/127088537-66f0143e-b82e-4e1b-be79-36cd6a96ec64.png)
 
 ### ワークスペース(workspace)の作成
