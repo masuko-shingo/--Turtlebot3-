@@ -108,3 +108,11 @@ git clone後は一つ戻って、catkin_wsに移動し、catkin_makeというコ
 ```
 $ export TURTLEBOT3_MODEL=burger
 ```
+
+※gazeboを実行した際に、このようなエラーが出る場合
+```
+$ gazebo worlds/turtlebot3_burger.world
+[Err] [REST.cc:205] Error in REST request
+
+libcurl: (51) SSL: no alternative certificate subject name matches target host name 'api.ignitionfuel.org'
+```
