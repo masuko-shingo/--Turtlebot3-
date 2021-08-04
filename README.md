@@ -90,12 +90,15 @@ catkin_wsの中に、srcというディレクトリを作ります。　　
 このcatkin_ws/srcの中に、必要なパッケージ等をダウンロードしていきます。
 
 ### 6.1 Gazebo Simulation
-ここからは、GazeboというROSのパッケージをインストール、セットアップしていきます。
+ここでは、GazeboというROSのパッケージを使ってシミュレーションを行います。
 
 ### 6.1.1 Install Simulation Package
 ```
 $ cd ~/catkin_ws/src/
 $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+$ git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
+$ git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+$ git clone https://github.com/ROBOTIS-GIT/turtlebot3_gazebo_plugin.git
 $ cd ~/catkin_ws && catkin_make
 ```
 catkin_ws/srcに移動し、turtlebot3のシミュレーション環境を-bでブランチを指定して、自分の環境に複製します。  
