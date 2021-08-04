@@ -117,6 +117,12 @@ $ cd ~/catkin_ws && catkin_make
 ```
 catkin_ws/srcに移動し、turtlebot3のシミュレーション環境を-bでブランチを指定して、git cloneで自分の環境に複製します。  
 git clone後は、catkin_wsに移動し、catkin_makeというコマンドでビルドしていきます。
+```
+$ cd ../
+$ catkin_make
+```
+のように、一つ戻ってcatkin_makeするやり方でも構いません。
+
 
 ### 6.1.2 Launch Simulation World
 インストール、ビルドができたら  
