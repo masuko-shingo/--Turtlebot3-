@@ -8,10 +8,10 @@ ubuntu18.04 ,ROS(melodic)がインストールされている前提でセット�
 turtlebot3シミュレーション環境をセットアップする
 
 ## 資料
-ROBOTIS e-manual PCsetup
-https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
-ROBOTIS e-manual simulation
-https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
+ROBOTIS e-manual PCsetup  
+https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/  
+ROBOTIS e-manual simulation  
+https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/  
 
 ## 説明
 資料にあるROBOTIS e-manualを参考にセットアップを行います。  
