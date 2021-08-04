@@ -131,9 +131,13 @@ url: https://api.ignitionfuel.org
 ```
 url: https://api.ignitionrobotics.org
 ```
-に変更する
+に変更する。  
+任意のエディタで変更(今回はvim)
 ```
 $ vim config.yaml 
+```
+変更できたか確認
+```
 $ cat config.yaml 
 ---
 # The list of servers.
