@@ -172,3 +172,4 @@ servers:
 # cache:
 #   path: /tmp/ignition/fuel
 ```
+この変更を行った後、再度gazeboを立ち上げ、エラーが出なければ成功です。
