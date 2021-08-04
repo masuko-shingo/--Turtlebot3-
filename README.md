@@ -99,7 +99,9 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
 を参考にしてみてください。
 
 ### 6.1.1 Install Simulation Package
-シミュレーションに必要なパッケージ、gmappingに必要なパッケージをインストールします。
+シミュレーションに必要なパッケージ、gmappingに必要なパッケージを  
+先程 ワークスペース(workspace)の作成 で作ったワークスペースにインストールしていきます。
+
 ```
 $ cd ~/catkin_ws/src/
 $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
