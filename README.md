@@ -100,7 +100,7 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
 
 ### 6.1.1 Install Simulation Package
 シミュレーションに必要なパッケージ、gmappingに必要なパッケージを  
-先程 ワークスペース(workspace)の作成 で作ったワークスペースにインストールしていきます。
+先程の ワークスペース(workspace)の作成 で作ったワークスペースにインストールしていきます。
 
 ```
 $ cd ~/catkin_ws/src/
