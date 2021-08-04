@@ -116,3 +116,33 @@ $ gazebo worlds/turtlebot3_burger.world
 
 libcurl: (51) SSL: no alternative certificate subject name matches target host name 'api.ignitionfuel.org'
 ```
+~/.ignition/fuelにある、config.yamlファイルの一部を変更してください。
+```
+$ cd ~/.ignition/fuel
+$ ls
+config.yaml
+```
+~/.ignition/fuelまで移動、configファイルがあるか確認  
+### configファイルの一部行を変更  
+* url: https://api.ignitionfuel.org
+から、
+* url: https://api.ignitionrobotics.org
+に変更
+```
+$ vim config.yaml 
+$ cat config.yaml 
+---
+# The list of servers.
+servers:
+  -
+    name: osrf
+    url: https://api.ignitionrobotics.org
+
+  # -
+    # name: another_server
+    # url: https://myserver
+
+# Where are the assets stored in disk.
+# cache:
+#   path: /tmp/ignition/fuel
+```
