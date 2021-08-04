@@ -75,7 +75,7 @@ $ sudo apt install ros-melodic-turtlebot3
 turtlebot3には、  
 * burger  
 * waffle  
-の２つがありますが、今回はburgerを使います。
+などいくつかありますが、今回はburgerを使います。
 ```
 $ echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
 ```
