@@ -71,8 +71,8 @@ $ sudo apt install ros-melodic-turtlebot3
 ### 3.1.5 Set TurtleBot3 Model Name
 ここでは、用いるturtlebot3のモデルを設定していきます。  
 turtlebot3には、  
--burger  
--waffle  
+* burger  
+* waffle  
 の２つがありますが、今回はburgerを使います。
 ```
 $ echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
@@ -89,7 +89,10 @@ $ cd ~/catkin_ws/src
 catkin_wsの中に、srcというディレクトリを作ります。  
 このsrcの中に、必要なパッケージ等をダウンロードしていきます。
 
-### 6.1
+### 6.1 Gazebo Simulation
+ここからは、GazeboというROSのパッケージをインストール、セットアップしていきます。
+
+### 6.1.1 Install Simulation Package
 ```
 $ cd ~/catkin_ws/src/
 $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
