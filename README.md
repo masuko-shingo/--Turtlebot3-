@@ -99,6 +99,11 @@ $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulatio
 $ git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
 $ git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 $ git clone https://github.com/ROBOTIS-GIT/turtlebot3_gazebo_plugin.git
+$ git clone https://github.com/ros-perception/slam_gmapping.git
+$ git clone https://github.com/ros-perception/openslam_gmapping.git
+$ git clone https://github.com/ros-planning/navigation_msgs.git
+$ git clone https://github.com/ros-planning/navigation.git
+$ git clone https://github.com/ros/geometry2.git
 $ cd ~/catkin_ws && catkin_make
 ```
 catkin_ws/srcに移動し、turtlebot3のシミュレーション環境を-bでブランチを指定して、自分の環境に複製します。  
@@ -107,6 +112,7 @@ git clone後は一つ戻って、catkin_wsに移動し、catkin_makeというコ
 ### 6.1.2 Launch Simulation World
 ```
 $ export TURTLEBOT3_MODEL=burger
+$ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 
 ※gazeboを実行した際に、このようなエラーが出る場合
