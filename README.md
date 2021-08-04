@@ -93,6 +93,7 @@ catkin_wsの中に、srcというディレクトリを作ります。　　
 ここでは、GazeboというROSのパッケージを使ってシミュレーションを行います。
 
 ### 6.1.1 Install Simulation Package
+シミュレーションに必要なパッケージ、gmappingに必要なパッケージをインストールします。
 ```
 $ cd ~/catkin_ws/src/
 $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
@@ -106,16 +107,24 @@ $ git clone https://github.com/ros-planning/navigation.git
 $ git clone https://github.com/ros/geometry2.git
 $ cd ~/catkin_ws && catkin_make
 ```
-catkin_ws/srcに移動し、turtlebot3のシミュレーション環境を-bでブランチを指定して、自分の環境に複製します。  
-git clone後は一つ戻って、catkin_wsに移動し、catkin_makeというコマンドでビルドしていきます。
+catkin_ws/srcに移動し、turtlebot3のシミュレーション環境を-bでブランチを指定して、git cloneで自分の環境に複製します。  
+git clone後は、catkin_wsに移動し、catkin_makeというコマンドでビルドしていきます。
 
 ### 6.1.2 Launch Simulation World
+インストール、ビルドができたら  
+gazeboでシミュレータを立ち上げてみます。
 ```
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
+gazeboが立ち上がり、亀のようなワールドとturtlebot3がいれば完了です。  
+ctrl+alt+tで新しく端末を開いて、teleop_keyを実行すればシミュレータ内のturtlebot3を動かすことができます。
+```
+$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch 
+```
 
-※gazeboを実行した際に、このようなエラーが出る場合
+
+### gazeboを実行した際に、このようなエラーが出る場合
 ```
 $ gazebo worlds/turtlebot3_burger.world
 [Err] [REST.cc:205] Error in REST request
