@@ -140,7 +140,7 @@ $ ls
 config.yaml
 ```
 ~/.ignition/fuelまで移動、configファイルがあるか確認  
-### configファイルの一部行を変更  
+#### configファイルの一部行を変更  
 ```
 url: https://api.ignitionfuel.org
 ```
