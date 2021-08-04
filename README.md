@@ -106,5 +106,5 @@ git clone後は一つ戻って、catkin_wsに移動し、catkin_makeというコ
 
 ### 6.1.2 Launch Simulation World
 ```
-
+$ export TURTLEBOT3_MODEL=burger
 ```
