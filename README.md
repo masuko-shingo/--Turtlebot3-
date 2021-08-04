@@ -93,6 +93,10 @@ catkin_wsの中に、srcというディレクトリを作ります。　　
 
 ### 6.1 Gazebo Simulation
 ここでは、GazeboというROSのパッケージを使ってシミュレーションを行います。
+ここからは、資料にある  
+ROBOTIS e-manual simulation  
+https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/  
+を参考にしてみてください。
 
 ### 6.1.1 Install Simulation Package
 シミュレーションに必要なパッケージ、gmappingに必要なパッケージをインストールします。
