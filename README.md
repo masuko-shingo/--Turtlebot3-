@@ -124,10 +124,14 @@ config.yaml
 ```
 ~/.ignition/fuelまで移動、configファイルがあるか確認  
 ### configファイルの一部行を変更  
-* url: https://api.ignitionfuel.org
+```
+url: https://api.ignitionfuel.org
+```
 から、
-* url: https://api.ignitionrobotics.org
-に変更
+```
+url: https://api.ignitionrobotics.org
+```
+に変更する
 ```
 $ vim config.yaml 
 $ cat config.yaml 
