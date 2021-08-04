@@ -69,10 +69,10 @@ $ sudo apt install ros-melodic-turtlebot3-msgs
 $ sudo apt install ros-melodic-turtlebot3
 ```
 ### 3.1.5 Set TurtleBot3 Model Name
-ここでは、用いるturtlebot3のモデルを設定していきます。
-turtlebot3には、
--burger
--waffle
+ここでは、用いるturtlebot3のモデルを設定していきます。  
+turtlebot3には、  
+-burger  
+-waffle  
 の２つがありますが、今回はburgerを使います。
 ```
 $ echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
