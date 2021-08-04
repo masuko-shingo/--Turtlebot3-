@@ -86,7 +86,7 @@ $ mkdir -p ~/catkin_ws/src
 $ cd ~/catkin_ws/src
 ```
 今回のワークスペースの名前は、catkin_wsとして、
-catkin_wsの中に、srcというディレクトリを作ります。  
+catkin_wsの中に、srcというディレクトリを作ります。　　
 このcatkin_ws/srcの中に、必要なパッケージ等をダウンロードしていきます。
 
 ### 6.1 Gazebo Simulation
@@ -96,5 +96,7 @@ catkin_wsの中に、srcというディレクトリを作ります。
 ```
 $ cd ~/catkin_ws/src/
 $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
-$ cd ~/catkin_ws && catkin_mak
+$ cd ~/catkin_ws && catkin_make
 ```
+catkin_ws/srcに移動し、turtlebot3のシミュレーション環境を-bでブランチを指定して、自分の環境に複製します。  
+git clone後は一つ戻って、catkin_wsに移動し、catkin_makeというコマンドでビルドしていきます。
