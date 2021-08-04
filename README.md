@@ -94,9 +94,9 @@ $ echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
 $ mkdir -p ~/catkin_ws/src
 $ cd ~/catkin_ws/src
 ```
-今回のワークスペースの名前は、catkin_wsとして、
-catkin_wsの中に、srcというディレクトリを作ります。　　
-このcatkin_ws/srcの中に、必要なパッケージ等をダウンロードしていきます。
+今回のワークスペースの名前は、catkin_wsとして、  
+catkin_wsの中に、srcというディレクトリを作ります。  
+このcatkin_ws/srcの中に、必要なパッケージ等をダウンロードしていきます。  
 
 ### 6.1 Gazebo Simulation
 ここでは、GazeboというROSのパッケージを使ってシミュレーションを行います。  
