@@ -124,7 +124,8 @@ ctrl+alt+tで新しく端末を開いて、teleop_keyを実行すればシミュ
 ```
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch 
 ```
-
+#### 立ち上がった際の図
+![8月5日勉強会turltebot3simulatorスクショ](https://user-images.githubusercontent.com/72721963/128228635-71c8154f-1397-481a-9cd9-0f45970cf3cf.png)
 
 ### gazeboを実行した際に、このようなエラーが出る場合
 ```
